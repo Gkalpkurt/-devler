@@ -1,0 +1,12 @@
+1. Adım: root 7'dir. Solunda 5, sağında 8 bulunur.
+2. Adım: root'un solunda 5 bulunur. Solunda 1, sağında 3 bulunur.
+3. Adım: root'un solunun solunda 1 bulunur. Sağında 3 bulunur.
+4. Adım: root'un sağında 8 bulunur. Sağında 9 bulunur.
+5. Adım: root'un solunun solunun sağında 3 bulunur. Solunda 0 bulunur.
+6. Adım: root'un solunun sağında 3 bulunur. Solunda 2 bulunur.
+7. Adım: root'un solunun solunun solunda 0 bulunur.
+8. Adım: root'un solunun solunun sağında 2 bulunur.
+9. Adım: root'un solunun sağında 5 bulunur. Sağında 6 bulunur.
+10. Adım: root'un solunun sağının sağında 6 bulunur. Solunda 4 bulunur.
+
+Bu aşamalardan sonra BST'de tüm elemanlar eklenmiştir.
