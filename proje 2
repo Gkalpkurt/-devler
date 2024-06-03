@@ -1,0 +1,8 @@
+1. Adım: [16, 21, 11] [8, 12, 22] (Diziyi ikiye böldük)
+2. Adım: [16, 21] [11] [8, 12] [22] (Her bir alt diziyi tek elemanlı alt dizilere ayırdık)
+3. Adım: [11, 16, 21] [8, 12, 22] (Alt dizileri birleştirdik ve sıraladık)
+4. Adım: [8, 11, 12, 16, 21, 22] (Tüm diziyi birleştirdik ve sıraladık)
+
+Merge Sort'un Big-O gösterimi O(n log n)'dir.
+
+Merge Sort, diziyi her adımda ikiye böldüğü için ve her bir alt diziyi birleştirirken O(n) zaman alır. Toplamda O(n log n) zaman karmaşıklığına sahiptir.
