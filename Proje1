@@ -1,0 +1,29 @@
+İlk olarak, verilen diziyi Insertion Sort algoritmasıyla sıralayalım:
+
+Verilen dizi: [22, 27, 16, 2, 18, 6]
+
+1. Adım: [22, 27, 16, 2, 18, 6] (Başlangıç durumu)
+2. Adım: [22, 27, 16, 2, 18, 6] (2, 16'dan küçük olduğu için 2'yi 16'nın soluna yerleştiriyoruz)
+3. Adım: [2, 22, 27, 16, 18, 6] (2, 22'den küçük olduğu için 2'yi 22'nin soluna yerleştiriyoruz)
+4. Adım: [2, 16, 22, 27, 18, 6] (18, 27'den büyük olduğu için 18'i 27'nin soluna yerleştiriyoruz)
+5. Adım: [2, 16, 18, 22, 27, 6] (6, 22'den küçük olduğu için 6'yı 22'nin soluna yerleştiriyoruz)
+6. Adım: [2, 6, 16, 18, 22, 27] (Tüm elemanlar sıralandı)
+
+Insertion Sort'un Big-O gösterimi O(n^2)'dir.
+
+Time Complexity:
+18 sayısı:
+- Average case: Aradığımız sayının ortada olması -> O(n/2) = O(n)
+- Worst case: Aradığımız sayının sonda olması -> O(n)
+- Best case: Aradığımız sayının dizinin en başında olması -> O(1)
+
+Şimdi, verilen dizi için Selection Sort algoritmasının ilk 4 adımını yazalım:
+
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+1. Adım: [2, 3, 5, 8, 7, 9, 4, 15, 6] (Minimum eleman 2 olduğu için 2'yi dizinin başına yerleştiriyoruz)
+2. Adım: [2, 3, 5, 8, 7, 9, 4, 15, 6] (Minimum eleman 3 olduğu için 3'ü dizinin ikinci elemanı olarak belirliyoruz)
+3. Adım: [2, 3, 4, 8, 7, 9, 5, 15, 6] (Minimum eleman 4 olduğu için 4'ü dizinin üçüncü elemanı olarak belirliyoruz)
+4. Adım: [2, 3, 4, 5, 7, 9, 8, 15, 6] (Minimum eleman 5 olduğu için 5'i dizinin dördüncü elemanı olarak belirliyoruz)
+
+Yukarıdaki adımlarda, Selection Sort algoritması ilk 4 adımı gerçekleştirirken dizinin ilk 4 elemanını sıralamış oluyor.
